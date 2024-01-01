@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ----------------------------box1 start------------------------------------------------ */
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.box1 {
+  background-image: url("Assets/img/background.jpg");
+  width: 100vw;
+  height: 70vh;
+  opacity: 0.65;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar {
+  /* border: 4px solid red; */
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero2 {
+  display: flex;
+  gap: 10px;
+}
+
+nav img {
+  /* color: rgb(205, 30, 30); */
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+.top-btn1 {
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  padding: 8px 40px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.top-btn2 {
+  background-color: rgb(199, 20, 20);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bolder;
+  border: 0;
+}
+
+.text-1 {
+  /* border: 2px solid red; */
+  height: 30vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-1 > :first-child {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+    "sans-serif";
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.text-1 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  /* padding: 12px; */
+  text-align: center;
+}
+
+.text-1 > :nth-child(3) {
+  font-weight: 400;
+  font-size: 24px;
+  /* padding: 12px; */
+  text-align: center;
+}
+
+.emali-1 {
+  /* border: 10px solid red; */
+  height: 7vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.text-1 input {
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  padding: 8px 40px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.text-1 button {
+  background-color: rgb(199, 20, 20);
+  color: white;
+  padding: 8px 40px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.linebreak {
+  height: 8px;
+  width: 100vw;
+  background-color: rgb(60, 58, 58);
+}
+
+/* ----------------------------box1 end------------------------------------------------ */
+
+/* -------------------------------box2 start----------------------------------------------- */
+
+.box2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  opacity: 0.65;
+}
+
+.text-2 > :first-child {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+    "sans-serif";
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.text-2 > :nth-child(2) {
+  
+  font-weight: 400;
+  font-size: 24px;
+}
+/* -------------------------------box2 end----------------------------------------------- */
+
+
+/* ----------------------------------box3 start---------------------------------------------- */
+
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.65;
+  }
+  
+  .text-3 > :first-child {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+      "sans-serif";
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .text-3 > :nth-child(2) {
+    
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .image-3 video{
+    position: relative;
+    display: inline-block;
+    top: -387px;
+    left: 77px;
+  }
+/* --------------------------------------box3 end--------------------------------------------------- */
+
+/* -----------------------------------------box4 start-------------------------------------------------- */
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.65;
+  }
+  
+  .text-4 > :first-child {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+      "sans-serif";
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .text-4 > :nth-child(2) {
+    
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .image-4 video{
+    position: relative;
+    top: -387px;
+    left: 77px;
+  }  
+
+/* --------------------------------------------box4 end----------------------------------------------------- */
+
+/* -----------------------------------------------box5 start----------------------------------------------------- */
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.65;
+  }
+  
+  .text-5 > :first-child {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+      "sans-serif";
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .text-5 > :nth-child(2) {
+    
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+/* -----------------------------------------------box5 end-------------------------------------------------------- */
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 100px;
+  }
+  
+  .faq h2{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+  }
+  
+  .faqbox:hover{
+    background: rgb(139, 134, 134);
+    color: white;
+  }
+  
+  .faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 40wh;
+    margin: 34px auto;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+  }
+  
+  h3{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+    "sans-serif";
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+  
+  .text-1 button {
+    background-color: rgb(199, 20, 20);
+    color: white;
+    padding: 8px 40px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .email-2{
+    height: 7vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 130px;
+
+    input{
+        background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    padding: 8px 40px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid grey;
+    }
+
+    button{
+        background-color: rgb(199, 20, 20);
+  color: white;
+  padding: 8px 40px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid grey;
+    }
+  }
+
+  footer{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+  }
+  ul{
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    gap: 20px;
+  }
+  
+  #tribute{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+  }
+  
+  .khalsa video{
+    position: absolute;
+    width: 17vw;
+    height: 30vh;
+    top: 0;
+    margin-right: 100px;
+  }
+/* ------------------------------------------Flexible--------------------------------------------- */
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .hero2 {
+    display: flex;
+    gap: 5px;
+  }
+
+  nav img {
+    /* color: rgb(205, 30, 30); */
+    width: 100px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .top-btn1 {
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    padding: 3px 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .top-btn2 {
+    background-color: rgb(199, 20, 20);
+    color: white;
+    padding: 3px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bolder;
+    border: 0;
+  }
+
+  .text-1 {
+    /* border: 2px solid red; */
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-1 > :first-child {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto, Ubuntu",
+      "sans-serif";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .text-1 > :nth-child(2) {
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .text-1 > :nth-child(3) {
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .box2, .box3, .box4, .box5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
